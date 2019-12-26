@@ -1,25 +1,25 @@
 body {
-  background:#000000;
+  background: #000000;
 }
 
 footer {
-  background:#ffffff;
+  background: #ffffff;
 }
 
 .internal-link {
-text-decoration: none;
-color: #000000;
+  text-decoration: none;
+  color: #000000;
 }
 
 th {
-font-weight: normal;
-text-align: left;
+  font-weight: normal;
+  text-align: left;
 }
 
 #video {
-background-color: black;
-text-align: center;
-position: absolute;
+  background-color: black;
+  text-align: center;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -51,7 +51,6 @@ position: absolute;
   border: 1px solid black;
   font-family: Google Sans;
   font-weight: bold;
-  
 }
 
 .active, .collapsible:hover {
@@ -95,7 +94,9 @@ position: absolute;
   font-style: italic;
 }
 
-* {box-sizing: border-box;}
+* {
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
@@ -158,6 +159,7 @@ body {
   .topnav .search-container {
     float: none;
   }
+
   .topnav a, .topnav input[type=text], .topnav .search-container button {
     float: none;
     display: block;
@@ -166,8 +168,9 @@ body {
     margin: 0;
     padding: 14px;
   }
+
   .topnav input[type=text] {
-    border: 1px solid #ccc;  
+    border: 1px solid #ccc;
   }
 }
 
